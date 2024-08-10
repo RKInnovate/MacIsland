@@ -7,13 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		57680DE92C6789D8000233B9 /* MacIslandApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57680DE82C6789D8000233B9 /* MacIslandApp.swift */; };
-		57680DEB2C6789D8000233B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57680DEA2C6789D8000233B9 /* ContentView.swift */; };
 		57680DED2C6789D9000233B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57680DEC2C6789D9000233B9 /* Assets.xcassets */; };
 		57680DF02C6789D9000233B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57680DEF2C6789D9000233B9 /* Preview Assets.xcassets */; };
 		57680DFB2C6789D9000233B9 /* MacIslandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57680DFA2C6789D9000233B9 /* MacIslandTests.swift */; };
 		57680E052C6789D9000233B9 /* MacIslandUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57680E042C6789D9000233B9 /* MacIslandUITests.swift */; };
 		57680E072C6789D9000233B9 /* MacIslandUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57680E062C6789D9000233B9 /* MacIslandUITestsLaunchTests.swift */; };
+		57680E232C6789EE000233B9 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57680E132C6789EE000233B9 /* EventMonitor.swift */; };
+		57680E242C6789EE000233B9 /* Ext+NSAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57680E142C6789EE000233B9 /* Ext+NSAlert.swift */; };
+		57680E252C6789EE000233B9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57680E152C6789EE000233B9 /* main.swift */; };
+		57680E262C6789EE000233B9 /* Ext+NSScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57680E162C6789EE000233B9 /* Ext+NSScreen.swift */; };
+		57680E272C6789EE000233B9 /* TrayDrop+DropItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57680E172C6789EE000233B9 /* TrayDrop+DropItemView.swift */; };
+		57680E282C6789EE000233B9 /* AirDrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57680E182C6789EE000233B9 /* AirDrop.swift */; };
+		57680E292C6789EF000233B9 /* Ext+FileProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57680E192C6789EE000233B9 /* Ext+FileProvider.swift */; };
+		57680E2A2C6789EF000233B9 /* TrayDrop+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57680E1A2C6789EE000233B9 /* TrayDrop+View.swift */; };
+		57680E2B2C6789EF000233B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57680E1B2C6789EE000233B9 /* AppDelegate.swift */; };
+		57680E2C2C6789EF000233B9 /* TrayDrop+DropItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57680E1C2C6789EE000233B9 /* TrayDrop+DropItem.swift */; };
+		57680E2D2C6789EF000233B9 /* Ext+URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57680E1D2C6789EE000233B9 /* Ext+URL.swift */; };
+		57680E2E2C6789EF000233B9 /* Ext+NSImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57680E1E2C6789EE000233B9 /* Ext+NSImage.swift */; };
+		57680E2F2C6789EF000233B9 /* AirDrop+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57680E1F2C6789EE000233B9 /* AirDrop+View.swift */; };
+		57680E302C6789EF000233B9 /* PublishedPersist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57680E202C6789EE000233B9 /* PublishedPersist.swift */; };
+		57680E312C6789EF000233B9 /* EventMonitors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57680E212C6789EE000233B9 /* EventMonitors.swift */; };
+		57680E322C6789EF000233B9 /* TrayDrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57680E222C6789EE000233B9 /* TrayDrop.swift */; };
+		57680E342C678A0D000233B9 /* MacIsland.plist in Resources */ = {isa = PBXBuildFile; fileRef = 57680E332C678A0D000233B9 /* MacIsland.plist */; };
+		57680E462C678A1F000233B9 /* ColorButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57680E352C678A1F000233B9 /* ColorButtonView.swift */; };
+		57680E472C678A1F000233B9 /* DynamicIslandSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57680E362C678A1F000233B9 /* DynamicIslandSettingsView.swift */; };
+		57680E482C678A1F000233B9 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57680E372C678A1F000233B9 /* Language.swift */; };
+		57680E492C678A1F000233B9 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 57680E382C678A1F000233B9 /* Localizable.xcstrings */; };
+		57680E4A2C678A1F000233B9 /* NowPlaying.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57680E392C678A1F000233B9 /* NowPlaying.swift */; };
+		57680E4B2C678A1F000233B9 /* PlaybackController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57680E3A2C678A1F000233B9 /* PlaybackController.swift */; };
+		57680E4C2C678A1F000233B9 /* DynamicIslandViewModel+Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57680E3B2C678A1F000233B9 /* DynamicIslandViewModel+Events.swift */; };
+		57680E4D2C678A1F000233B9 /* NowPlayingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57680E3C2C678A1F000233B9 /* NowPlayingView.swift */; };
+		57680E4E2C678A1F000233B9 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 57680E3D2C678A1F000233B9 /* InfoPlist.xcstrings */; };
+		57680E4F2C678A1F000233B9 /* DynamicIslandContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57680E3E2C678A1F000233B9 /* DynamicIslandContentView.swift */; };
+		57680E502C678A1F000233B9 /* DynamicIslandViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57680E3F2C678A1F000233B9 /* DynamicIslandViewModel.swift */; };
+		57680E512C678A1F000233B9 /* DynamicIslandWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57680E402C678A1F000233B9 /* DynamicIslandWindowController.swift */; };
+		57680E522C678A1F000233B9 /* DynamicIslandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57680E412C678A1F000233B9 /* DynamicIslandView.swift */; };
+		57680E532C678A1F000233B9 /* DynamicIslandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57680E422C678A1F000233B9 /* DynamicIslandViewController.swift */; };
+		57680E542C678A1F000233B9 /* DynamicIslandMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57680E432C678A1F000233B9 /* DynamicIslandMenuView.swift */; };
+		57680E552C678A1F000233B9 /* DynamicIslandHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57680E442C678A1F000233B9 /* DynamicIslandHeaderView.swift */; };
+		57680E562C678A1F000233B9 /* DynamicIslandWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57680E452C678A1F000233B9 /* DynamicIslandWindow.swift */; };
+		57680E592C678A63000233B9 /* ColorfulX in Frameworks */ = {isa = PBXBuildFile; productRef = 57680E582C678A63000233B9 /* ColorfulX */; };
+		57680E5C2C678A73000233B9 /* Pow in Frameworks */ = {isa = PBXBuildFile; productRef = 57680E5B2C678A73000233B9 /* Pow */; };
+		57680E5F2C678A87000233B9 /* BitCollections in Frameworks */ = {isa = PBXBuildFile; productRef = 57680E5E2C678A87000233B9 /* BitCollections */; };
+		57680E612C678A87000233B9 /* Collections in Frameworks */ = {isa = PBXBuildFile; productRef = 57680E602C678A87000233B9 /* Collections */; };
+		57680E632C678A87000233B9 /* DequeModule in Frameworks */ = {isa = PBXBuildFile; productRef = 57680E622C678A87000233B9 /* DequeModule */; };
+		57680E652C678A87000233B9 /* HashTreeCollections in Frameworks */ = {isa = PBXBuildFile; productRef = 57680E642C678A87000233B9 /* HashTreeCollections */; };
+		57680E672C678A87000233B9 /* HeapModule in Frameworks */ = {isa = PBXBuildFile; productRef = 57680E662C678A87000233B9 /* HeapModule */; };
+		57680E6A2C678A98000233B9 /* LaunchAtLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 57680E692C678A98000233B9 /* LaunchAtLogin */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +75,6 @@
 
 /* Begin PBXFileReference section */
 		57680DE52C6789D8000233B9 /* MacIsland.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacIsland.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		57680DE82C6789D8000233B9 /* MacIslandApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacIslandApp.swift; sourceTree = "<group>"; };
-		57680DEA2C6789D8000233B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		57680DEC2C6789D9000233B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57680DEF2C6789D9000233B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		57680DF12C6789D9000233B9 /* MacIsland.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacIsland.entitlements; sourceTree = "<group>"; };
@@ -45,6 +83,40 @@
 		57680E002C6789D9000233B9 /* MacIslandUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacIslandUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57680E042C6789D9000233B9 /* MacIslandUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacIslandUITests.swift; sourceTree = "<group>"; };
 		57680E062C6789D9000233B9 /* MacIslandUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacIslandUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		57680E132C6789EE000233B9 /* EventMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
+		57680E142C6789EE000233B9 /* Ext+NSAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Ext+NSAlert.swift"; sourceTree = "<group>"; };
+		57680E152C6789EE000233B9 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		57680E162C6789EE000233B9 /* Ext+NSScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Ext+NSScreen.swift"; sourceTree = "<group>"; };
+		57680E172C6789EE000233B9 /* TrayDrop+DropItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TrayDrop+DropItemView.swift"; sourceTree = "<group>"; };
+		57680E182C6789EE000233B9 /* AirDrop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirDrop.swift; sourceTree = "<group>"; };
+		57680E192C6789EE000233B9 /* Ext+FileProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Ext+FileProvider.swift"; sourceTree = "<group>"; };
+		57680E1A2C6789EE000233B9 /* TrayDrop+View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TrayDrop+View.swift"; sourceTree = "<group>"; };
+		57680E1B2C6789EE000233B9 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57680E1C2C6789EE000233B9 /* TrayDrop+DropItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TrayDrop+DropItem.swift"; sourceTree = "<group>"; };
+		57680E1D2C6789EE000233B9 /* Ext+URL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Ext+URL.swift"; sourceTree = "<group>"; };
+		57680E1E2C6789EE000233B9 /* Ext+NSImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Ext+NSImage.swift"; sourceTree = "<group>"; };
+		57680E1F2C6789EE000233B9 /* AirDrop+View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AirDrop+View.swift"; sourceTree = "<group>"; };
+		57680E202C6789EE000233B9 /* PublishedPersist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublishedPersist.swift; sourceTree = "<group>"; };
+		57680E212C6789EE000233B9 /* EventMonitors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventMonitors.swift; sourceTree = "<group>"; };
+		57680E222C6789EE000233B9 /* TrayDrop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrayDrop.swift; sourceTree = "<group>"; };
+		57680E332C678A0D000233B9 /* MacIsland.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MacIsland.plist; sourceTree = "<group>"; };
+		57680E352C678A1F000233B9 /* ColorButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorButtonView.swift; sourceTree = "<group>"; };
+		57680E362C678A1F000233B9 /* DynamicIslandSettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicIslandSettingsView.swift; sourceTree = "<group>"; };
+		57680E372C678A1F000233B9 /* Language.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
+		57680E382C678A1F000233B9 /* Localizable.xcstrings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		57680E392C678A1F000233B9 /* NowPlaying.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NowPlaying.swift; sourceTree = "<group>"; };
+		57680E3A2C678A1F000233B9 /* PlaybackController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaybackController.swift; sourceTree = "<group>"; };
+		57680E3B2C678A1F000233B9 /* DynamicIslandViewModel+Events.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DynamicIslandViewModel+Events.swift"; sourceTree = "<group>"; };
+		57680E3C2C678A1F000233B9 /* NowPlayingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NowPlayingView.swift; sourceTree = "<group>"; };
+		57680E3D2C678A1F000233B9 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
+		57680E3E2C678A1F000233B9 /* DynamicIslandContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicIslandContentView.swift; sourceTree = "<group>"; };
+		57680E3F2C678A1F000233B9 /* DynamicIslandViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicIslandViewModel.swift; sourceTree = "<group>"; };
+		57680E402C678A1F000233B9 /* DynamicIslandWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicIslandWindowController.swift; sourceTree = "<group>"; };
+		57680E412C678A1F000233B9 /* DynamicIslandView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicIslandView.swift; sourceTree = "<group>"; };
+		57680E422C678A1F000233B9 /* DynamicIslandViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicIslandViewController.swift; sourceTree = "<group>"; };
+		57680E432C678A1F000233B9 /* DynamicIslandMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicIslandMenuView.swift; sourceTree = "<group>"; };
+		57680E442C678A1F000233B9 /* DynamicIslandHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicIslandHeaderView.swift; sourceTree = "<group>"; };
+		57680E452C678A1F000233B9 /* DynamicIslandWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicIslandWindow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +124,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57680E652C678A87000233B9 /* HashTreeCollections in Frameworks */,
+				57680E592C678A63000233B9 /* ColorfulX in Frameworks */,
+				57680E5C2C678A73000233B9 /* Pow in Frameworks */,
+				57680E672C678A87000233B9 /* HeapModule in Frameworks */,
+				57680E632C678A87000233B9 /* DequeModule in Frameworks */,
+				57680E612C678A87000233B9 /* Collections in Frameworks */,
+				57680E6A2C678A98000233B9 /* LaunchAtLogin in Frameworks */,
+				57680E5F2C678A87000233B9 /* BitCollections in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,8 +175,40 @@
 		57680DE72C6789D8000233B9 /* MacIsland */ = {
 			isa = PBXGroup;
 			children = (
-				57680DE82C6789D8000233B9 /* MacIslandApp.swift */,
-				57680DEA2C6789D8000233B9 /* ContentView.swift */,
+				57680E352C678A1F000233B9 /* ColorButtonView.swift */,
+				57680E3E2C678A1F000233B9 /* DynamicIslandContentView.swift */,
+				57680E442C678A1F000233B9 /* DynamicIslandHeaderView.swift */,
+				57680E432C678A1F000233B9 /* DynamicIslandMenuView.swift */,
+				57680E362C678A1F000233B9 /* DynamicIslandSettingsView.swift */,
+				57680E412C678A1F000233B9 /* DynamicIslandView.swift */,
+				57680E422C678A1F000233B9 /* DynamicIslandViewController.swift */,
+				57680E3F2C678A1F000233B9 /* DynamicIslandViewModel.swift */,
+				57680E3B2C678A1F000233B9 /* DynamicIslandViewModel+Events.swift */,
+				57680E452C678A1F000233B9 /* DynamicIslandWindow.swift */,
+				57680E402C678A1F000233B9 /* DynamicIslandWindowController.swift */,
+				57680E3D2C678A1F000233B9 /* InfoPlist.xcstrings */,
+				57680E372C678A1F000233B9 /* Language.swift */,
+				57680E382C678A1F000233B9 /* Localizable.xcstrings */,
+				57680E392C678A1F000233B9 /* NowPlaying.swift */,
+				57680E3C2C678A1F000233B9 /* NowPlayingView.swift */,
+				57680E3A2C678A1F000233B9 /* PlaybackController.swift */,
+				57680E332C678A0D000233B9 /* MacIsland.plist */,
+				57680E182C6789EE000233B9 /* AirDrop.swift */,
+				57680E1F2C6789EE000233B9 /* AirDrop+View.swift */,
+				57680E1B2C6789EE000233B9 /* AppDelegate.swift */,
+				57680E132C6789EE000233B9 /* EventMonitor.swift */,
+				57680E212C6789EE000233B9 /* EventMonitors.swift */,
+				57680E192C6789EE000233B9 /* Ext+FileProvider.swift */,
+				57680E142C6789EE000233B9 /* Ext+NSAlert.swift */,
+				57680E1E2C6789EE000233B9 /* Ext+NSImage.swift */,
+				57680E162C6789EE000233B9 /* Ext+NSScreen.swift */,
+				57680E1D2C6789EE000233B9 /* Ext+URL.swift */,
+				57680E152C6789EE000233B9 /* main.swift */,
+				57680E202C6789EE000233B9 /* PublishedPersist.swift */,
+				57680E222C6789EE000233B9 /* TrayDrop.swift */,
+				57680E1C2C6789EE000233B9 /* TrayDrop+DropItem.swift */,
+				57680E172C6789EE000233B9 /* TrayDrop+DropItemView.swift */,
+				57680E1A2C6789EE000233B9 /* TrayDrop+View.swift */,
 				57680DEC2C6789D9000233B9 /* Assets.xcassets */,
 				57680DF12C6789D9000233B9 /* MacIsland.entitlements */,
 				57680DEE2C6789D9000233B9 /* Preview Content */,
@@ -145,6 +257,16 @@
 			dependencies = (
 			);
 			name = MacIsland;
+			packageProductDependencies = (
+				57680E582C678A63000233B9 /* ColorfulX */,
+				57680E5B2C678A73000233B9 /* Pow */,
+				57680E5E2C678A87000233B9 /* BitCollections */,
+				57680E602C678A87000233B9 /* Collections */,
+				57680E622C678A87000233B9 /* DequeModule */,
+				57680E642C678A87000233B9 /* HashTreeCollections */,
+				57680E662C678A87000233B9 /* HeapModule */,
+				57680E692C678A98000233B9 /* LaunchAtLogin */,
+			);
 			productName = MacIsland;
 			productReference = 57680DE52C6789D8000233B9 /* MacIsland.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +339,12 @@
 				Base,
 			);
 			mainGroup = 57680DDC2C6789D8000233B9;
+			packageReferences = (
+				57680E572C678A63000233B9 /* XCRemoteSwiftPackageReference "ColorfulX" */,
+				57680E5A2C678A73000233B9 /* XCRemoteSwiftPackageReference "Pow" */,
+				57680E5D2C678A87000233B9 /* XCRemoteSwiftPackageReference "swift-collections" */,
+				57680E682C678A98000233B9 /* XCRemoteSwiftPackageReference "LaunchAtLogin-Modern" */,
+			);
 			productRefGroup = 57680DE62C6789D8000233B9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -234,6 +362,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				57680DF02C6789D9000233B9 /* Preview Assets.xcassets in Resources */,
+				57680E4E2C678A1F000233B9 /* InfoPlist.xcstrings in Resources */,
+				57680E342C678A0D000233B9 /* MacIsland.plist in Resources */,
+				57680E492C678A1F000233B9 /* Localizable.xcstrings in Resources */,
 				57680DED2C6789D9000233B9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +390,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57680DEB2C6789D8000233B9 /* ContentView.swift in Sources */,
-				57680DE92C6789D8000233B9 /* MacIslandApp.swift in Sources */,
+				57680E322C6789EF000233B9 /* TrayDrop.swift in Sources */,
+				57680E312C6789EF000233B9 /* EventMonitors.swift in Sources */,
+				57680E2F2C6789EF000233B9 /* AirDrop+View.swift in Sources */,
+				57680E2E2C6789EF000233B9 /* Ext+NSImage.swift in Sources */,
+				57680E512C678A1F000233B9 /* DynamicIslandWindowController.swift in Sources */,
+				57680E4D2C678A1F000233B9 /* NowPlayingView.swift in Sources */,
+				57680E4C2C678A1F000233B9 /* DynamicIslandViewModel+Events.swift in Sources */,
+				57680E2B2C6789EF000233B9 /* AppDelegate.swift in Sources */,
+				57680E522C678A1F000233B9 /* DynamicIslandView.swift in Sources */,
+				57680E4F2C678A1F000233B9 /* DynamicIslandContentView.swift in Sources */,
+				57680E552C678A1F000233B9 /* DynamicIslandHeaderView.swift in Sources */,
+				57680E482C678A1F000233B9 /* Language.swift in Sources */,
+				57680E232C6789EE000233B9 /* EventMonitor.swift in Sources */,
+				57680E472C678A1F000233B9 /* DynamicIslandSettingsView.swift in Sources */,
+				57680E282C6789EE000233B9 /* AirDrop.swift in Sources */,
+				57680E252C6789EE000233B9 /* main.swift in Sources */,
+				57680E242C6789EE000233B9 /* Ext+NSAlert.swift in Sources */,
+				57680E4A2C678A1F000233B9 /* NowPlaying.swift in Sources */,
+				57680E542C678A1F000233B9 /* DynamicIslandMenuView.swift in Sources */,
+				57680E292C6789EF000233B9 /* Ext+FileProvider.swift in Sources */,
+				57680E2D2C6789EF000233B9 /* Ext+URL.swift in Sources */,
+				57680E272C6789EE000233B9 /* TrayDrop+DropItemView.swift in Sources */,
+				57680E4B2C678A1F000233B9 /* PlaybackController.swift in Sources */,
+				57680E302C6789EF000233B9 /* PublishedPersist.swift in Sources */,
+				57680E562C678A1F000233B9 /* DynamicIslandWindow.swift in Sources */,
+				57680E262C6789EE000233B9 /* Ext+NSScreen.swift in Sources */,
+				57680E502C678A1F000233B9 /* DynamicIslandViewModel.swift in Sources */,
+				57680E2C2C6789EF000233B9 /* TrayDrop+DropItem.swift in Sources */,
+				57680E532C678A1F000233B9 /* DynamicIslandViewController.swift in Sources */,
+				57680E462C678A1F000233B9 /* ColorButtonView.swift in Sources */,
+				57680E2A2C6789EF000233B9 /* TrayDrop+View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +589,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MacIsland;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -456,6 +618,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MacIsland;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -581,6 +745,84 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		57680E572C678A63000233B9 /* XCRemoteSwiftPackageReference "ColorfulX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Lakr233/ColorfulX";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.1.5;
+			};
+		};
+		57680E5A2C678A73000233B9 /* XCRemoteSwiftPackageReference "Pow" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/EmergeTools/Pow";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.4;
+			};
+		};
+		57680E5D2C678A87000233B9 /* XCRemoteSwiftPackageReference "swift-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-collections.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.2;
+			};
+		};
+		57680E682C678A98000233B9 /* XCRemoteSwiftPackageReference "LaunchAtLogin-Modern" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/LaunchAtLogin-Modern";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		57680E582C678A63000233B9 /* ColorfulX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 57680E572C678A63000233B9 /* XCRemoteSwiftPackageReference "ColorfulX" */;
+			productName = ColorfulX;
+		};
+		57680E5B2C678A73000233B9 /* Pow */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 57680E5A2C678A73000233B9 /* XCRemoteSwiftPackageReference "Pow" */;
+			productName = Pow;
+		};
+		57680E5E2C678A87000233B9 /* BitCollections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 57680E5D2C678A87000233B9 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = BitCollections;
+		};
+		57680E602C678A87000233B9 /* Collections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 57680E5D2C678A87000233B9 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = Collections;
+		};
+		57680E622C678A87000233B9 /* DequeModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 57680E5D2C678A87000233B9 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = DequeModule;
+		};
+		57680E642C678A87000233B9 /* HashTreeCollections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 57680E5D2C678A87000233B9 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = HashTreeCollections;
+		};
+		57680E662C678A87000233B9 /* HeapModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 57680E5D2C678A87000233B9 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = HeapModule;
+		};
+		57680E692C678A98000233B9 /* LaunchAtLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 57680E682C678A98000233B9 /* XCRemoteSwiftPackageReference "LaunchAtLogin-Modern" */;
+			productName = LaunchAtLogin;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 57680DDD2C6789D8000233B9 /* Project object */;
 }
