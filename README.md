@@ -7,9 +7,9 @@
 [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](LICENSE)
 
 **MacIsland** brings the **Dynamic Island experience to macOS**, inspired by iOS.
-It’s a sleek, interactive floating UI that integrates system essentials like **AirDrop, temporary file storage, and battery insights**, with upcoming support for notifications and music control.
+It’s a sleek, interactive floating UI that integrates system essentials like **AirDrop, temporary file storage, and battery insights**, with now-playing music and playback controls, and upcoming support for notifications.
 
-> ⚠️ **Note:** MacIsland is currently in **pre-release (experimental)**. Expect frequent updates and missing features.
+> ℹ️ **Note:** MacIsland is under active development — expect frequent updates. See the [latest release](https://github.com/BadRat-in/MacIsland/releases/latest) for what's new.
 
 ---
 
@@ -19,7 +19,8 @@ It’s a sleek, interactive floating UI that integrates system essentials like *
 - [x] **DropTray (Temporary Storage)** – Drop files into a tray that stores them for **1 day (default)**, with customizable duration.
 - [x] **Battery Status** – Instantly check your Mac’s battery percentage in the island.
 - [x] **Now Playing Display** – Track title, artist, album, artwork, and remaining time, with an auto-popup chip when the track changes. _See limitations below._
-- [ ] **Music Controls** – Play, pause, skip, and scrub. _(Coming Soon)_
+- [x] **Music Controls** – Play, pause, skip, and scrub the current track from the now-playing panel.
+- [x] **System Volume** – Drag-to-set output volume from the panel; tracks external changes (volume keys, Sound settings).
 
 > **Now Playing limitation.** macOS does not expose a public, system-wide "what's playing now" API to native AppKit apps — `MPMusicPlayerController` and `MusicKit.SystemMusicPlayer` are both `@available(macos, unavailable)`, and Apple's private `MediaRemote.framework` now returns "Operation not permitted" on macOS 15+. As a workaround MacIsland listens to the public `DistributedNotificationCenter` broadcasts from **Music.app** (`com.apple.iTunes.playerInfo`) and **Spotify** (`com.spotify.client.PlaybackStateChanged`). This means **browser audio (YouTube, web players), podcast apps, and any other source that doesn't post to DNC will not be detected** — we're tracking the issue and will switch back to a system-wide source the moment one is available. PRs with cleaner workarounds welcome.
 
@@ -32,6 +33,14 @@ It’s a sleek, interactive floating UI that integrates system essentials like *
 ---
 
 ## 🚀 Installation
+
+### Homebrew
+
+```bash
+brew install --cask BadRat-in/tap/macisland
+```
+
+### Direct download
 
 The **easiest way** to try MacIsland is by downloading the latest pre-built release:
 
@@ -66,13 +75,13 @@ open MacIsland.xcodeproj
 - **DropTray** → Temporarily store files by dragging them onto the tray.
 - **Battery Status** → Battery icon + percentage appears when charging/discharging.
 - **Now Playing** → When a track is playing in Music.app or Spotify, the island briefly pops up with artwork + remaining time, and the expanded view defaults to the music panel. Tap the home icon in the music panel to access AirDrop / DropTray / Battery.
-- _(Future)_ Music controls (play/pause/skip/scrub).
+- **Music Controls** → Play/pause, previous/next, and scrub from the now-playing panel; drag the volume slider to set output level.
 
 ---
 
 ## ✅ Requirements
 
-- **macOS**: 11.0 (Big Sur) or later
+- **macOS**: 14.5 (Sonoma) or later
 - **Xcode**: 14.0 or later (for building from source)
 - **Swift**: 5.0 or later
 
