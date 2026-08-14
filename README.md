@@ -1,3 +1,5 @@
+
+
 # MacIsland
 
 [![Latest Release](https://img.shields.io/github/v/release/BadRat-in/MacIsland?include_prereleases&label=release)](https://github.com/BadRat-in/MacIsland/releases/latest)
@@ -84,6 +86,7 @@ open MacIsland.xcodeproj
 - **macOS**: 14.5 (Sonoma) or later
 - **Xcode**: 14.0 or later (for building from source)
 - **Swift**: 5.0 or later
+- **Accessibility Permissions**: Required in System Settings (`Privacy & Security > Accessibility`) for global event monitoring and drag-and-drop support.
 
 ---
 
